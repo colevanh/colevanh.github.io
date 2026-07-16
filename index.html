@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Customize for your site -->
@@ -14,106 +15,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-
-    <!-- Optional code highlighting for blog posts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
-
-    <style>
-        :root {
-            --accent: #2563eb;
-            --text-primary: #24292e;
-            --text-secondary: #586069;
-            --bg-body: #ffffff;
-            --bg-subtle: #f7fafc;
-            --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-            --font-serif: 'Lora', Georgia, serif;
-            --code-bg: #1a202c;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: var(--font-sans);
-            background-color: var(--bg-body);
-            color: var(--text-primary);
-            line-height: 1.75;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        a {
-            color: var(--accent);
-            text-decoration: underline;
-            text-underline-offset: 2px;
-            transition: all 0.15s ease;
-        }
-
-        a:hover { opacity: 0.8; text-decoration-color: var(--text-secondary); }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: var(--font-sans);
-            color: #0d1117;
-            line-height: 1.35;
-            margin-bottom: 0.7em;
-        }
-
-        h1 { font-size: clamp(1.8rem, 4vw, 2.5rem); }
-
-        p {
-            margin-bottom: 0.9em;
-            font-family: var(--font-serif);
-        }
-
-        strong { color: #0d1117; font-weight: 600; }
-        em { font-style: italic; }
-
-        code, pre {
-            font-family: 'Fira Code', Consolas, Monaco, monospace;
-            background-color: var(--bg-subtle);
-            padding: 0.15em 0.4em;
-            border-radius: 3px;
-        }
-
-        code { color: #d73a49; }
-        pre > code { background-color: var(--code-bg); color: #abb2bf; }
-        pre {
-            margin-bottom: 1.5em;
-            white-space: pre-wrap;
-            word-break: break-word;
-        }
-
-        blockquote {
-            margin-left: 1.5em;
-            border-left: 3px solid var(--accent);
-            padding-left: 0.75em;
-            font-style: italic;
-        }
-
-        ul, ol { margin-bottom: 0.9em; padding-left: 1.5em; }
-        img { max-width: 100%; height: auto; }
-        hr { border-color: #eaecef; margin-bottom: 3em; }
-
-        .site-header { padding-top: clamp(6rem, 15vw, 9.875rem); }
-        .nav-wrapper { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
-        nav { font-weight: 500; }
-        nav a, .site-title { color: var(--text-primary); text-decoration: none !important; }
-        nav a:hover, .site-title:hover { color: var(--accent); }
-        nav ul { display: flex; list-style: none; gap: 0.5rem; }
-        nav li + li::before { content: '/'; margin-right: 0.5rem; color: var(--text-secondary); }
-
-        .site-content { max-width: min(98ch, calc(100% - 3em)); margin: auto; }
-        article { margin-top: clamp(4rem, 10vw, 5.9375rem); }
-        .post-header { border-bottom: 2px solid #eaecef; padding-bottom: 1.5rem; }
-        .meta { font-size: 0.875rem; color: var(--text-secondary); }
-        .post-body > h2 { margin-top: 3em; }
-
-        footer { margin-top: clamp(4rem, 10vw, 5.9375rem); padding-bottom: 8rem; }
-        .footer-content p { font-size: 0.875rem; color: var(--text-secondary); }
-
-        @media (max-width: 48em) {
-            .site-header, article { padding-left: 0.5em; }
-            nav ul { flex-direction: column; gap: 1rem; }
-        }
-    </style>
 </head>
 
 <body style="padding-top: clamp(2rem, 5vw, 3em)">
