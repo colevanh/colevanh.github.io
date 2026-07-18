@@ -36,7 +36,7 @@ plugins:
   - jekyll-feed
 
 # Remote theme
-remote_theme: pages-themes/merlot@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-remote-theme
 # Exclude from processing.
