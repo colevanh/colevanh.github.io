@@ -1,5 +1,5 @@
 layout: page
 title: "RESUME"
-permalink: /URL-PATH
+permalink: /resume
 
 # Testing the Resume page
