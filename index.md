@@ -8,8 +8,11 @@ layout: default
 * Written in Markdown
 * Spicy Picante
 
-Find my resume --> [cvh Resume](./RESUME.md)
+
 
 ``` shell
 cat "Reba"
 ```
+
+##### [cvh Resume](./RESUME.md)
+
