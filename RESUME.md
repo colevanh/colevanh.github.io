@@ -13,7 +13,7 @@ transforming software development, and looking for a new team that’s eager to 
 
 ---
 
-### . professional experience
+### professional experience
 
 #### Intuit Credit Karma
 
@@ -37,7 +37,7 @@ Karma products and pages.
 Enabling tens of thousands of users to pay bills directly in the app for the first time..
 > * Led Dogfood sessions and drove cross-functional success across the organization.
 
-##### Test Engineer I!
+##### Test Engineer I
 
 ###### Charlotte, NC -- January 2020 through August 2021
 
@@ -47,13 +47,18 @@ checking accounts, savings accounts, and check deposits
 
 ---
 
+### current projects
+
+---
+
+
 ### education
 
-##### University of California, San Diego
+#### University of California, San Diego
 > Mathematics-Computer Science  
 > September 2015 - June 2018  
 
-##### Irvine Valley College
+#### Irvine Valley College
 > Computer Science  
 > August 2012 - May 2015  
 
